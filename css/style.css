@@ -1,0 +1,162 @@
+/*font-family: 'Alegreya', serif;
+font-family: 'Ropa Sans', sans-serif;*/
+
+#contenido{
+		width: 1000px;
+		height: auto;
+		position: relative;
+		margin: auto;
+		
+}
+
+body{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1{
+	font-family: 'Alegreya', serif;
+	margin-left: 10px;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+h2{
+	font-family: 'Ropa Sans', sans-serif;
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	background-color: #026698;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	float: center;
+	margin-top: 20px;
+}
+
+
+section{
+	width: 700px;
+	height: 670px;
+	background: #1e8b8a;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+aside{
+	width: 280px;
+	background: orange;
+	height: 670px;
+	float: left;
+	margin-left:20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+footer{
+	width: 1000px;
+	height: 60px;
+	background: purple;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p{
+ width: 650px;
+ height: 200px;
+ float: auto;
+ margin-left: 10px;
+text-align: justify;
+}
+
+.lec{
+
+	width: 700px;
+	height: 400px;
+	background: #1e8b8a;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+
+/*ESTILOS GENERALES*/
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	line-height: 3rem;
+	position: relative;
+	
+}
+
+.menu ul{
+	position: absolute;
+}
+
+nav a{
+	color: #ddd;
+	display: block;
+	text-decoration: none;
+	padding: 0 2em;
+	transition:-4s;
+}
+
+nav a:hover{
+
+	background: rgba(0, 0, 0,5); 
+
+}
+
+nav ul ul{
+	display:none; 
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+
+/*PRIMER NIVEL*/
+.menu{
+	background: #026698;
+	display: table;
+	width: 100%;
+
+}
+
+.menu>li{
+	float: left;
+}
+/*SEGUNDO NIVEL*/
+
+nav li li{
+	background: #026698;
+	width: 200px;
+}
+
+/*TERCER NIVEL
+
+
+
+/*CLASES*/
+
+
